@@ -56,10 +56,11 @@ in {
                 mv = "mv -iv";
                 cp = "cp -riv";
                 cat = "bat --paging=never --style=plain";
-                ls = "exa -a --icons";
+                l = "exa -a --icons";
                 tree = "exa --tree --icons";
                 nd = "nix develop -c $SHELL";
                 rebuild = "doas nixos-rebuild switch --flake $NIXOS_CONFIG_DIR --fast; notify-send 'Rebuild complete\!'";
+                # sudo = "doas";
             };
 
             # Source all plugins, nix-style

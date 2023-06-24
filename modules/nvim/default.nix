@@ -29,7 +29,7 @@ in {
             '';
 
             shellAliases = {
-                v = "nvim -i NONE";
+                n = "nvim -i NONE";
                 nvim = "nvim -i NONE";
             };
         };
